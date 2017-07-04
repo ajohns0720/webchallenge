@@ -1,3 +1,44 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: Georgia, "Palatino", Tahoma, sans-serif;
+	font-weight: 700;
+	font-size: 2.5em
+}
+
+body { 
+	padding-top: 70px; 
+	height: 100%; 
+}
+
+.site-description {
+	text-transform: uppercase;
+}
+.site-description a {
+	color: #9d9d9d;
+	font-family: Georgia, "Palatino", Tahoma, sans-serif;
+}
+
+.container {
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+.container:after {
+	content: "";
+	display: block;
+}
+
+.site-footer, .container:after {
+	height: 50px;
+}
+
+.site-footer {
+	background: grey;
+}
